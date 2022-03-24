@@ -1,31 +1,36 @@
 * {
-    background-color: rgb(34,34,34);
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 header {
     max-height: 100vh;
     max-width: auto;
-    overflow: hidden;
-    margin-bottom: 30px;
-    box-sizing: content-box;
+    border-bottom: 20px solid rgb(255, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.800) 5%, rgba(0, 0, 0, 0.390) 40%, rgba(0, 0, 0, 0.781) 85%);
 }
 
-#cover {
-    height: auto;
+#cover {   
     width: 100%;
-    z-index: 1;
+    height: auto;
+    z-index: -1;
     position: relative;
-    top: -132px;
+    top: -134px;    
+}
+
+div {
+    max-height: 66vh;
+    max-width: 100vh;
+    
 }
 
 #logo {
     pointer-events: none; 
     user-select: none;
-    max-width: 133px;
-    height: auto;
-    margin: 28px 57px;
+    max-width: 10.1%;
+    max-height: auto;
+    margin: 2.1% 4.3%;
     position: relative;
     top: 0px;
     left: 0px;
