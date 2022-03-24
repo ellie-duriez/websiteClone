@@ -1,0 +1,48 @@
+* {
+    background-color: rgb(34,34,34);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-height: 100vh;
+    max-width: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-sizing: content-box;
+}
+
+#cover {
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: -132px;
+}
+
+#logo {
+    pointer-events: none; 
+    user-select: none;
+    max-width: 133px;
+    height: auto;
+    margin: 28px 57px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-color: transparent;
+}
+
+p, a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+footer {
+    background-color: black;
+}
+
