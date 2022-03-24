@@ -7,15 +7,17 @@
     position: relative;
     max-height: 100vh;
     max-width: auto;
-    border-bottom: 20px solid rgb(255, 0, 0);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.800) 5%, rgba(0, 0, 0, 0.390) 40%, rgba(0, 0, 0, 0.781) 85%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.800) 5%, rgba(0, 0, 0, 0.390) 40%, rgba(0, 0, 0, 0.855) 97%);
+    box-sizing: border-box;
+    border-bottom: 10px solid rgb(34,34,34);
+    overflow:hidden;
 }
 #cover {   
     width: 100%;
     height: auto;
     z-index: -1;
     position: relative;
-    top: -134px;    
+    top: -134px;   
 }
 #logo {
     pointer-events: none; 
