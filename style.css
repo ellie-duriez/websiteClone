@@ -1,8 +1,10 @@
+/* RESETTING DEFAULT BROWSER VALUES */
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
+/* COVER */
 #header {
     position: relative;
     max-height: 100vh;
@@ -38,7 +40,6 @@
     width: 100%;
     top: 50%;
 }
-
 #signinbutton {
     position: absolute;
     z-index: 3;
@@ -48,12 +49,10 @@
     top: 0%;
     right: 0%;
 }
-
-h1 {
+h1 { 
     font-size: xx-large;
     color: white;
 }
-
 .subheader {
     font-size: large;
     color: white;
@@ -63,17 +62,19 @@ h1 {
     color: white;
 }
 
-/* 
-p, a {
+/* DIVS / SECTIONS */
+
+/* FAQ */
+
+/* FOOTER */
+footer p, footer a {
     color: gray;
     text-decoration: none;
 }
-
-a:hover {
+footer a:hover {
     text-decoration: underline;
   }
-
 footer {
     background-color: black;
-} */
+}
 
