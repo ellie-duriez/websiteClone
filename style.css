@@ -108,6 +108,23 @@ h2 {
     text-align: left;
 }
 
+/* FAQ */
+
+#FAQ {
+    color: white;
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.FAQheader {
+    background-color: rgb(34,34,34);
+}
+
+.expand {
+    background-color: rgb(34,34,34);
+}
+
 
 /* FOOTER */
 footer p, footer a {
