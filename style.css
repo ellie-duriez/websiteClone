@@ -54,12 +54,13 @@ h1 {
     color: white;
 }
 .subheader {
-    font-size: large;
+    font-size: 30px;
     color: white;
 }
 .emailprompttext {
-    font-size: medium;
+    font-size: 20px;
     color: white;
+    padding: 17px;
 }
 
 /* DIVS / SECTIONS */
@@ -148,16 +149,53 @@ h2 {
     display:none; 
 }
 
+/* SECOND EMAIL PROMPT */
+#secondEmailPrompt {
+    border-bottom: 8px solid rgb(34,34,34);
+    text-align: center;
+    background-color: black;
+    padding: 70px;
+}
 
 /* FOOTER */
-footer p, footer a {
-    color: gray;
-    text-decoration: none;
+
+#flexFooter {
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    padding-top: 30px;
 }
-footer a:hover {
-    text-decoration: underline;
-  }
+
 footer {
     background-color: black;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 40px 200px;
+    box-sizing: border-box;
 }
+
+footer span, footer span~a {
+    color: gray; 
+    font-size: 18px; 
+    text-decoration: none;
+}
+
+#flexFooter a, footer p {
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    padding: 7px 0px;
+}
+
+footer p {
+    padding: 30px 0px 0px;
+}
+
+#flexFooter a:hover, footer a:hover{
+    text-decoration: underline;
+  }
+
 
