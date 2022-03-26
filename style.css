@@ -38,7 +38,7 @@
     z-index: 3;
     text-align: center;
     width: 100%;
-    top: 50%;
+    top: 33%;
 }
 #signinbutton {
     position: absolute;
@@ -54,6 +54,7 @@ h1 {
     color: white;
 }
 .subheader {
+    margin: 20px 0px 10px;
     font-size: 30px;
     color: white;
 }
