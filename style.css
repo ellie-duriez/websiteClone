@@ -110,19 +110,42 @@ h2 {
 
 /* FAQ */
 
-#FAQ {
+#FAQwrapper h2 {
     color: white;
+    padding: 55px 0px 40px;
+}
+
+#FAQwrapper {
     width: 100vw;
     text-align: center;
     background-color: rgb(0, 0, 0);
+    font-size: 30px;
 }
 
 .FAQheader {
+    text-align: left;
+    border-bottom: 10px solid rgb(0, 0, 0);
     background-color: rgb(34,34,34);
+    color: white;
+    margin: 0% 20%;
+    box-sizing: content-box;
+    padding: 20px 30px;
+}
+
+.FAQheader:focus + .expand {
+    display:block;
 }
 
 .expand {
+    text-align: left;
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(0, 0, 0);
     background-color: rgb(34,34,34);
+    color: white;
+    margin: 0% 20%;
+    box-sizing: content-box;
+    padding: 20px 30px;
+    display:none; 
 }
 
 
